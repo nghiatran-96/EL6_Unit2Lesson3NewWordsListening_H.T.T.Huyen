@@ -1,0 +1,2010 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <title>UNIT 2 LESSON 3.1: NEW WORDS + LISTENING - Trường Tiểu học Thường Thới Hậu A - huyện Hồng Ngự - Đồng Tháp</title>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui.css'>    <link rel='stylesheet' type='text/css' href='css/jqmath.css'></head>
+<body>
+    <div id='container'>
+        <div id='mainContent'>
+            <div id='leftMainContent'>
+                <!-- Confirm Question One Page MessageBox -->
+                <div id='ConfirmAnswerRight_OnePage_Message' class='DraggablePanel'>
+                    <div id='ConfirmAnswerRight_OnePage_Message_Header'>
+                        <p class='QuestionResultPanelHeader_Content'> Thông báo </p><img class='QuestionResultPanelHeader_btnClose' src='images/btnClose.png'>
+                    </div>
+                    <div id='ConfirmAnswerRight_OnePage_Content'>
+                        <img id='ConfirmAnswerRight_OnePage_Content_IMG' src='images/button/Question/messageOK.png'>
+                        <div id='ConfirmAnswerRight_OnePage_Content_Content'>Đồng ý</div>
+                        <div id='ConfirmAnswerRight_OnePage_Content_btnAccept'>Đồng ý</div>
+                    </div>
+                </div>
+                <!-- End Confirm Question One Page MessageBox -->
+                <!-- Result Panel -->
+                <div id='QuestionResultPanel' class='DraggablePanel'>
+                    <div class='QuestionResultPanelHeader'>
+                        <p class='QuestionResultPanelHeader_Content'> Thông báo </p>
+                        <img class='QuestionResultPanelHeader_btnClose' src='images/btnClose.png'>
+                    </div>
+                    <div class='QuestionResultPanelContent'>
+                        <div class='QuestionResultPanelContent_Top'>
+                            <div class='QuestionResultPanelContent_Top_Left'>
+                                <p class='QuestionResultPanelContent_Top_Text'> Nhóm câu hỏi: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Tổng số câu: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Số câu đúng: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Số điểm / Tổng điểm: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Tỷ lệ % đúng:</p>
+                            </div>
+                            <div class='QuestionResultPanelContent_Top_Right'>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                            </div>
+                        </div>
+                        <div class='QuestionResultPanelContent_Middle'>
+                            <table class='QuestionResultPanelContent_Middle_Table'>
+                                <tr>
+                                    <td class='QuesResultFirstRow text-center' style='width:7%'>STT</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:35%'>Tên câu hỏi</td> 
+                                    <td class='QuesResultFirstRow text-center' style='width:20%'>Loại câu</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:15%'>Kết quả</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:15%'>Xem lại</td>
+                                </tr>
+                                <tr>
+                                    <td class='QuesResultRow text-center' style='width:7%'></td>
+                                    <td class='QuesResultRow' style='width:35%'></td> 
+                                    <td class='QuesResultRow text-center' style='width:20%'></td>
+                                    <td class='QuesResultRow text-center' style='width:15%'></td>
+                                    <td class='QuesResultRow text-center' style='width:15%'></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class='QuestionResultPanelContent_Bottom' style='cursor: pointer;'>Đồng ý
+                        </div>
+                    </div>
+                </div>
+                <!-- End result Panel -->
+                <!-- View question panel -->
+                    <div id='ViewQuestionPanel' class='DraggablePanel'>
+                        <div class='ViewQuestionPanel_Header'>
+                            <img class='QuestionResultPanelHeader_btnClose' src='images/btnClose.png'>
+                        </div>
+                        <div class='ViewQuestionPanel_Content'>
+                             <div class='ViewQuestionPanel_Content_Top'></div>
+                            <div class='ViewQuestionPanel_Content_Bottom'>
+                                <div class='ViewQuestionPanel_Content_Bottom_AnswerList' style='width: 100%; height: 100%;'>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- End view question panel -->
+                <!-- Result Panel No Score -->
+                <div id='QuestionResultPanel_NoScore' class='DraggablePanel'>
+                    <div class='QuestionResultPanelHeader_NoScore'>
+                        <p class='QuestionResultPanelHeader_Content'>Thông báo</p>
+                        <img class='QuestionResultPanelHeader_btnClose' src='images/btnClose.png'>
+                    </div>
+                    <div class='QuestionResultPanelContent_NoScore'>
+                        <div class='QuestionResultPanelContent_Top_NoScore'>
+                            <div class='QuestionResultPanelContent_Top_Left_NoScore'>
+                                <p class='QuestionResultPanelContent_Top_Text'> Nhóm câu hỏi: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Tổng số câu: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Số câu đúng: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Số điểm / Tổng điểm: </p>
+                                <p class='QuestionResultPanelContent_Top_Text'> Tỷ lệ % đúng: </p>
+                            </div>
+                            <div class='QuestionResultPanelContent_Top_Right_NoScore'>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                                <p class='QuestionResultPanelContent_Top_Text'></p>
+                            </div>
+                        </div>
+                        <div class='QuestionResultPanelContent_Middle_NoScore'> Đỗ roài </div>
+                        <div class='QuestionResultPanelContent_Bottom_NoScore_Left' style='cursor: pointer;'>Xem lại</div>
+                        <div class='QuestionResultPanelContent_Bottom_NoScore_Right' style='cursor: pointer;'>Tiếp tục</div>
+                    </div>
+                </div>
+                <!-- End result Panel No Score -->
+                <!-- List question panel No Score -->
+                    <div id='ListQuestionPanel_NoScore' class='DraggablePanel'>
+                        <div class='QuestionResultPanelHeader_NoScore'>
+                            <img class='QuestionResultPanelHeader_btnClose' src='images/btnClose.png'>
+                    </div>
+                        <div class='QuestionResultPanelContent_NoScore'>
+                            <table class='QuestionResultPanelContent_Middle_Table'>
+                                <tr>
+                                    <td class='QuesResultFirstRow text-center' style='width:7%'>STT</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:35%'>Tên câu hỏi</td> 
+                                    <td class='QuesResultFirstRow text-center' style='width:20%'>Loại câu</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:15%'>Kết quả</td>
+                                    <td class='QuesResultFirstRow text-center' style='width:15%'>Xem lại</td>
+                                </tr>
+                                <tr>
+                                    <td class='QuesResultRow text-center' style='width:7%'></td>
+                                    <td class='QuesResultRow' style='width:35%'></td> 
+                                    <td class='QuesResultRow text-center' style='width:20%'></td>
+                                    <td class='QuesResultRow text-center' style='width:15%'></td>
+                                    <td class='QuesResultRow text-center' style='width:15%'></td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+                <!-- End list question panel No Score -->
+<div id='CELPage_404' jumpid='404'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_404'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_404_1' ></div>
+</div>
+<div id ='CELImage_0_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_0_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='17.6181432935927' hFrame='20.2327021846065' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CELAudio_0_1' style='position: absolute; display: inline-block'>
+<div style='width:100%; height:100%'>
+
+    <img class='iconAudio' idAudio ='img_CELAudio_0_1' src='images/iconAudio.png' style = 'width: 100%; height: 100%; transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg); -o-transform: rotate(0deg);'>
+</div>
+<div style='position: absolute;'>
+<audio id ='aid_CELAudio_0_1' startTime = '0' maxVol='50' src='Data\CELAudio_0_1.mp3' style='position: absolute;'>
+
+</audio>
+
+</div>
+
+</div>
+
+
+<div id ='CELVideo_0_2' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='26.4616935483871' hFrame='30.8467741935484' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_0_2' startTime ='5' source src='Data\CELVideo_0_2.mp4' maxVol='100' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_0_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 76.0524835894184%; top: 7.67768004556806%;  height: 4.625%;left: 16.3270146359679%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '76.0524835894184' hFrame='4.625' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_0_3_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_0_3_sp00" class="resizeText" size = "32" style =" font-size: 32px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;font-weight: bold; ">HUONG PHUNG ETHNIC BOARDING SECONDARY SCHOOL </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_0_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.8246610087733%; top: 36.5083252068584%;  height: 16.375%;left: 13.554837216613%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.8246610087733' hFrame='16.375' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_0_4_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_0_4_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF00BA; background-color: transparent;font-weight: bold; ">E - LEARNING LESSON</span>
+</p>
+<p id = "CTextFrame_0_4_Paragraph_1" style = "text-align:center;">
+<span id = "CTextFrame_0_4_sp10" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF00BA; background-color: transparent;font-weight: bold; ">ENGLISH 6 - I LEARN SMART WORLD </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_0_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 46.1885722990959%; top: 69.3712284326648%;  height: 17.75%;left: 14.436893668226%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '46.1885722990959' hFrame='17.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_0_5_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_0_5_sp00" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;font-weight: bold; ">Teacher: </span><span id = "CTextFrame_0_5_sp01" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;">Hoang Thi Thanh Huyen</span>
+</p>
+<p id = "CTextFrame_0_5_Paragraph_1" style = "text-align:justify;">
+<span id = "CTextFrame_0_5_sp10" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;font-weight: bold; ">Email: </span><span id = "CTextFrame_0_5_sp11" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;">thanhhuyenjvo@gmail.com</span>
+</p>
+<p id = "CTextFrame_0_5_Paragraph_2" style = "text-align:justify;">
+<span id = "CTextFrame_0_5_sp20" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;font-weight: bold; ">Phone number: </span><span id = "CTextFrame_0_5_sp21" class="resizeText" size = "37.3333333333333" style =" font-size: 37.3333333333333px;font-family:'Times_New_Roman';  color: #2F5596; background-color: transparent;">0966287696</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_330' jumpid='330'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_330_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/82d7ca51-173b-44e3-91d2-2495eca63954.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_330'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_330_1' ></div>
+</div>
+<div id ='CELImage_1_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.44011370340983' hFrame='43.4953816731771' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.44011370340983' hFrame='43.4953816731771' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.44011370340983' hFrame='43.4953816731771' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_3' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_3.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.1093718210856' hFrame='35.9259259259259' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_4' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_4.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.1093718210856' hFrame='35.9259259259259' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_5' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_5.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.1093718210856' hFrame='35.9259259259259' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_6' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_6.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.1093718210856' hFrame='35.9259259259259' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_7' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_7.gif' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='64.263801574707' hFrame='28.2407689977575' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_8' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_8.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='13.75' hFrame='10.1851851851852' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_1_9' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_1_9.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='34.6875' hFrame='4.30555084605276' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_442' jumpid='442'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_442_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/f4a91a12-3856-4a2d-b552-d506fe3f5321.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_442'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_442_1' ></div>
+</div>
+<div id ='CELImage_2_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_2_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='56.1592741935484' hFrame='65' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_2_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 31.7489919354839%; top: 11.491935483871%;  height: 10.5429166666667%;left: 33.5181451612903%;'>
+<svg class = 'svgFrame' borderwidth = '2' wFrame = '31.7489919354839' hFrame='10.5429166666667' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= '#052F61' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_2_1_Paragraph_0" style = "text-align:left;">
+<span class ='resizeText' size ='64' style='font-family: Palatino Linotype; font-size: 64px; font-style: Normal; font-weight:500;text-decoration: Normal;  color: #FF0000;text-shadow:
+                              -1px -1px 0 #A50E82,
+                              -1px 1px 0 #A50E82,
+                              -1px 0 0 #A50E82,
+                              1px -1px 0 #A50E82,
+                              1px 1px 0 #A50E82,
+                              1px 0 0 #A50E82,
+                              0 -1px 0 #A50E82,
+                              0 1px 0 #A50E82;'>MATCHING  </span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_257' jumpid='257'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_257'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_257_1' ></div>
+</div>
+<div id ='CELVideo_3_0' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='62.5' hFrame='62.5' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_3_0' startTime ='0' source src='Data\CELVideo_3_0.mp4' maxVol='100' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_3_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 9.58963288201226%; top: 9.25637496225105%;  height: 8.2687274320626%;left: 48.9934550391303%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '9.58963288201226' hFrame='8.2687274320626' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_3_1_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_3_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 9.08897036814871%;  height: 7.875%;left: 47.3249985069357%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_3_2_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_3_2_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">1</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_357' jumpid='357'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_357'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_357_1' ></div>
+</div>
+<div id ='CELVideo_4_0' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='62.5' hFrame='62.5' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_4_0' startTime ='0' source src='Data\CELVideo_4_0.mp4' maxVol='100' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_4_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 10.903486497181%;  height: 7.875%;left: 47.5770146359679%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_4_1_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_4_1_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">2</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_358' jumpid='358'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_358'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_358_1' ></div>
+</div>
+<div id ='CELVideo_5_0' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='62.5' hFrame='62.5' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_5_0' startTime ='0' source src='Data\CELVideo_5_0.mp4' maxVol='50' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_5_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 9.58963288201226%; top: 10.4660523816059%;  height: 8.2687274320626%;left: 49.4974872971948%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '9.58963288201226' hFrame='8.2687274320626' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_5_1_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_5_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 10.0970348842778%;  height: 7.875%;left: 47.9550388295163%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_5_2_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_5_2_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">3</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_348' jumpid='348'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_348_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/f680b681-8702-406b-a31a-e6fc0ccb94fb.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_348'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_348_1' ></div>
+</div>
+<div id ='CELImage_6_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_6_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='21.1661529541016' hFrame='54.5654522931134' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_6_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_6_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='21.7822286817763' hFrame='54.8160581235532' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_6_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_6_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='21.3861995273166' hFrame='54.5654522931134' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_6_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 21.1661529541016%; top: 18.9119277765721%;  height: 54.5654522931134%;left: 7.6457675298055%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '21.1661529541016' hFrame='54.5654522931134' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_6_3_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_6_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 6.87122843266484%;  height: 7.875%;left: 14.9409259262905%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_6_4_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_6_4_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">1</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_6_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 6.87122843266485%;  height: 7.875%;left: 48.4590710875808%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_6_5_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_6_5_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">2</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_6_6' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 6.66961552943904%;  height: 7.875%;left: 78.4489904424195%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_6_6_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_6_6_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #FF0000; background-color: transparent;font-weight: bold; ">3</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_349' jumpid='349'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_349_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/5d7a13f4-4b54-44d4-9450-52fbdf1af3c1.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_349'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_349_1' ></div>
+</div>
+<div id ='CELImage_7_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_7_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='49.9826181063088' hFrame='29.5696242441461' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_7_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 88.4236399332682%; top: 16.2962962962963%;  height: 19.625%;left: 5.71428245968289%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '88.4236399332682' hFrame='19.625' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_7_1_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_7_1_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000;font-weight: bold; ">UNIT 2: SCHOOL </span>
+</p>
+<p id = "CTextFrame_7_1_Paragraph_1" style = "text-align:center;">
+<span id = "CTextFrame_7_1_sp10" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Lesson 3. 1: New words + Listening</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_334' jumpid='334'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_334_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/ca449d8d-8d76-4652-892c-abd235dd5161.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_334'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_334_1' ></div>
+</div>
+<div id ='CELImage_8_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_8_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='30.5941058059747' hFrame='76.3187738112461' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_8_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_8_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='28.8703536303667' hFrame='74.8883810161072' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_8_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_8_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='27.8805054558648' hFrame='75.0927206910687' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_335' jumpid='335'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_335_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/7fd95f56-3680-4357-add2-f8e0c563ceb2.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_335'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_335_1' ></div>
+</div>
+<div id ='CELImage_9_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='24.0986548529731' hFrame='63.1614251784336' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='25.2040799458822' hFrame='60.1888020833333' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='20.6122483147515' hFrame='8.88890866880064' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_3' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_3.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='16.6279093424479' hFrame='9.00915734561873' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_4' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_4.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='13.6046589745416' hFrame='8.88890866880064' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_5' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_5.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='27.9781934950087' hFrame='69.9159900053048' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_9_6' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_9_6.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='10.5670362903226' hFrame='16.7379032258064' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_427' jumpid='427'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_427_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/992dfac5-9e6d-4352-8fb6-0816a97e0beb.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_427'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_427_1' ></div>
+</div>
+<div id ='CELImage_10_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_10_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='54.375' hFrame='87.5' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_10_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_10_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='11.9228830645161' hFrame='18.5040322580645' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_410' jumpid='410'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_410_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/C29JKPITWW.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_410'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_410_1' ></div>
+</div>
+<div id ='CELImage_11_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_11_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.98487903225806' hFrame='11.1975806451613' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_11_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_11_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.0488911290323' hFrame='19.1088709677419' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_11_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 54.7571206861927%; top: 25.8228413358907%;  height: 19%;left: 22.3754017327421%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '54.7571206861927' hFrame='19' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_11_2_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_11_2_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">Strange things happen and the secrets were found out</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_478' jumpid='478'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_478_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/HW10OH4LC4.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_478'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_478_1' ></div>
+</div>
+<div id ='CELImage_12_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_12_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.98487903225806' hFrame='11.1975806451613' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_12_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_12_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.1748991935484' hFrame='18.5040322580645' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_12_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 65.9718384281282%; top: 35.903486497181%;  height: 19%;left: 20.9893130230647%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '65.9718384281282' hFrame='19' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_12_2_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_12_2_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">The trip to discover new things like going to the new place</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_479' jumpid='479'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_479_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/a1217af5-5c70-44bf-9a24-e27ac4b4d59f.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_479'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_479_1' ></div>
+</div>
+<div id ='CELImage_13_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_13_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.98487903225806' hFrame='11.1975806451613' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_13_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_13_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='12.0488911290323' hFrame='16.6895161290322' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_13_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 60.4274835894185%; top: 30.4599381100843%;  height: 19.625%;left: 19.0991920553228%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '60.4274835894185' hFrame='19.625' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_13_2_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_13_2_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">Animals can talk and </span>
+</p>
+<p id = "CTextFrame_13_2_Paragraph_1" style = "text-align:center;">
+<span id = "CTextFrame_13_2_sp10" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">people can use magic</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_464' jumpid='464'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_464_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/c4df64b4-b485-4ae6-85fe-a9861f99230e.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_464'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_464_1' ></div>
+</div>
+<div id ='CELImage_14_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_14_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='27.4319556451613' hFrame='12.3709677419355' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_14_1' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.125%; top: 11.6935483870968%;  height: 10.766129032258%;left: 29.7127016129032%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.125' hFrame='10.766129032258' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_14_1_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_14_1_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">+Author (n) </span><span id = "CTextFrame_14_1_sp01" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">t</span><span id = "CTextFrame_14_1_sp02" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">á</span><span id = "CTextFrame_14_1_sp03" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">c</span><span id = "CTextFrame_14_1_sp04" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_1_sp05" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">g</span><span id = "CTextFrame_14_1_sp06" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">i</span><span id = "CTextFrame_14_1_sp07" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ả</span><span id = "CTextFrame_14_1_sp08" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_14_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.125%; top: 25.8064516129033%;  height: 23.0645161290322%;left: 29.460685483871%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.125' hFrame='23.0645161290322' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_14_2_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_14_2_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">+Novel (n) : </span><span id = "CTextFrame_14_2_sp01" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">t</span><span id = "CTextFrame_14_2_sp02" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">i</span><span id = "CTextFrame_14_2_sp03" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ể</span><span id = "CTextFrame_14_2_sp04" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_2_sp05" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp06" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">t</span><span id = "CTextFrame_14_2_sp07" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">h</span><span id = "CTextFrame_14_2_sp08" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_2_sp09" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">y</span><span id = "CTextFrame_14_2_sp010" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ế</span><span id = "CTextFrame_14_2_sp011" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">t</span><span id = "CTextFrame_14_2_sp012" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp013" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp014" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp015" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp016" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_2_sp017" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_14_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.125%; top: 40.5241935483872%;  height: 47.4596774193548%;left: 29.0826612903226%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.125' hFrame='47.4596774193548' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_14_3_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_14_3_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">+Fantasy (adj):</span><span id = "CTextFrame_14_3_sp01" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> ả</span><span id = "CTextFrame_14_3_sp02" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">o </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_14_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 69.1784274193549%; top: 54.8387096774194%;  height: 46.8548387096774%;left: 28.7046370967742%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '69.1784274193549' hFrame='46.8548387096774' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_14_4_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_14_4_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">+Mystery(n):</span><span id = "CTextFrame_14_4_sp01" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> h</span><span id = "CTextFrame_14_4_sp02" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_4_sp03" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">y</span><span id = "CTextFrame_14_4_sp04" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ề</span><span id = "CTextFrame_14_4_sp05" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">n</span><span id = "CTextFrame_14_4_sp06" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp07" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">d</span><span id = "CTextFrame_14_4_sp08" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">i</span><span id = "CTextFrame_14_4_sp09" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ệ</span><span id = "CTextFrame_14_4_sp010" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_4_sp011" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp012" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp013" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp014" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp015" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp016" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp017" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp018" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp019" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp020" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp021" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp022" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp023" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp024" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp025" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_4_sp026" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_14_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.125%; top: 67.5403225806452%;  height: 47.4596774193548%;left: 28.3266129032258%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.125' hFrame='47.4596774193548' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_14_5_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_14_5_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">+Adventure (n):</span><span id = "CTextFrame_14_5_sp01" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> p</span><span id = "CTextFrame_14_5_sp02" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">h</span><span id = "CTextFrame_14_5_sp03" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">i</span><span id = "CTextFrame_14_5_sp04" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ê</span><span id = "CTextFrame_14_5_sp05" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_5_sp06" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span><span id = "CTextFrame_14_5_sp07" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">l</span><span id = "CTextFrame_14_5_sp08" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">ư</span><span id = "CTextFrame_14_5_sp09" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;">u</span><span id = "CTextFrame_14_5_sp010" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #000000;"> </span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_389' jumpid='389'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_389_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/63ba3933-3cd1-4e53-9da2-65df72cf3472.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_389'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_389_1' ></div>
+</div>
+<div id ='CELImage_15_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_15_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='23.5478570726183' hFrame='21.9360747160735' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_15_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_15_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.75090768602159' hFrame='25.1009434829524' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_15_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_15_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='23.2136154174805' hFrame='38.6390992912435' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_15_3' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_15_3.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='37.3455259535048' hFrame='25.2580311667725' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_15_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 0.78125%; top: 16.7177419354839%;  height: NaN%;left: 17.765877016129%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '0.78125' hFrame='NaN' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_4_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 26.3203514946832%; top: 37.6353058991609%;  height: 2.5%;left: -1.09361331447467E-05%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '26.3203514946832' hFrame='2.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_5_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_6' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 5.73998358941847%; top: 62.7180026262132%;  height: 7.875%;left: 12.6727807650002%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '5.73998358941847' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_6_Paragraph_0" style = "text-align:justify;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_7' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 45.5809058520197%;  height: 9.5%;left: 2.97015979725824%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash ='1'  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_7_Paragraph_0" style = "text-align:center;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_8' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 47.1938090778261%;  height: 9.5%;left: 65.4701597972582%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_8_Paragraph_0" style = "text-align:center;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_9' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 49.0083252068584%;  height: 9.5%;left: 33.3381033456453%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_9_Paragraph_0" style = "text-align:center;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_10' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 69.3712284326649%;  height: 19%;left: 0.197982377903401%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='19' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_10_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_15_10_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-weight: bold; ">- Mystery novel</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_11' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 69.5728413358907%;  height: 19%;left: 33.3381033456453%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='19' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_11_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_15_11_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-weight: bold; ">- Fantasy novel </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_12' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.1855481055475%; top: 70.7825187552455%;  height: 19%;left: 66.3522162488711%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '30.1855481055475' hFrame='19' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_12_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_15_12_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-weight: bold; ">- Adventure novel </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_13' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 0.78125%; top: 74.7822580645161%;  height: NaN%;left: 37.297127016129%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '0.78125' hFrame='NaN' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_13_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_14' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 28.3467741935484%; top: 44.7580645161291%;  height: 18.75%;left: 2.77217741935484%;'>
+<svg class = 'svgFrame' borderwidth = '2' wFrame = '28.3467741935484' hFrame='18.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= '#052F61' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_14_Paragraph_0" style = "text-align:left;">
+<span class ='resizeText' size ='64' style='font-family: Times New Roman; font-size: 64px; font-style: Normal; font-weight:500;text-decoration: Normal;  color: #FF0000;text-shadow:
+                              -1px -1px 0 #A50E82,
+                              -1px 1px 0 #A50E82,
+                              -1px 0 0 #A50E82,
+                              1px -1px 0 #A50E82,
+                              1px 1px 0 #A50E82,
+                              1px 0 0 #A50E82,
+                              0 -1px 0 #A50E82,
+                              0 1px 0 #A50E82;'>The secret of the old clock </span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_15' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 22.5504032258064%; top: 48.3870967741936%;  height: 9.25%;left: 38.8104838709678%;'>
+<svg class = 'svgFrame' borderwidth = '2' wFrame = '22.5504032258064' hFrame='9.25' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= '#052F61' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_15_Paragraph_0" style = "text-align:left;">
+<span class ='resizeText' size ='64' style='font-family: Times New Roman; font-size: 64px; font-style: Normal; font-weight:500;text-decoration: Normal;  color: #FF0000;text-shadow:
+                              -1px -1px 0 #A50E82,
+                              -1px 1px 0 #A50E82,
+                              -1px 0 0 #A50E82,
+                              1px -1px 0 #A50E82,
+                              1px 1px 0 #A50E82,
+                              1px 0 0 #A50E82,
+                              0 -1px 0 #A50E82,
+                              0 1px 0 #A50E82;'>Peter Pan</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_15_16' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 30.3629032258064%; top: 44.5564516129032%;  height: 18.75%;left: 67.1622983870967%;'>
+<svg class = 'svgFrame' borderwidth = '2' wFrame = '30.3629032258064' hFrame='18.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= '#052F61' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_15_16_Paragraph_0" style = "text-align:left;">
+<span class ='resizeText' size ='64' style='font-family: Times New Roman; font-size: 64px; font-style: Normal; font-weight:500;text-decoration: Normal;  color: #FF0000;text-shadow:
+                              -1px -1px 0 #A50E82,
+                              -1px 1px 0 #A50E82,
+                              -1px 0 0 #A50E82,
+                              1px -1px 0 #A50E82,
+                              1px 1px 0 #A50E82,
+                              1px 0 0 #A50E82,
+                              0 -1px 0 #A50E82,
+                              0 1px 0 #A50E82;'> The side of the mountain</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_490' jumpid='490'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_490_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/bda986ee-8900-4b06-a7b4-d15acfc12337.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_490'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_490_1' ></div>
+</div>
+<div id ='CELImage_16_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_16_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='99.080318874783' hFrame='79.9276394314236' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_16_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_16_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='8.69455645161289' hFrame='12.1290322580645' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_16_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 78.125%; top: 53.125%;  height: 28.75%;left: 10.9375%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '78.125' hFrame='28.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_16_2_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_16_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 27.392323811849%; top: 28.6721813911368%;  height: 9.5%;left: 40.9693018595378%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '27.392323811849' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_16_3_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_16_3_sp00" class="resizeText" size = "46.6666666666667" style =" font-size: 46.6666666666667px;font-family:'Times_New_Roman';  color: #CC3300;font-weight: bold; "> </span><span id = "CTextFrame_16_3_sp01" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">+ n</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_16_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 33.4384515550401%; top: 45.9788563620849%;  height: 9.5%;left: 46.9791077371139%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '33.4384515550401' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_16_4_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_16_4_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">+ adj</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_16_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 28.9019690619575%; top: 62.88682190938%;  height: 9.5%;left: 56.5563117133246%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '28.9019690619575' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_16_5_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_16_5_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">+ adj</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_16_6' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 23.7242889404297%; top: 79.9963928246963%;  height: 9.5%;left: 67.304815613668%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '23.7242889404297' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_16_6_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_16_6_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">+ n</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_444' jumpid='444'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_444'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_444_1' ></div>
+</div>
+<div id ='CELImage_17_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_17_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='63.508064516129' hFrame='72.5806451612903' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CELAudio_17_1' style='position: absolute; display: inline-block'>
+<div style='width:100%; height:100%'>
+
+    <img class='iconAudio' idAudio ='img_CELAudio_17_1' src='images/iconAudio.png' style = 'width: 100%; height: 100%; transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg); -o-transform: rotate(0deg);'>
+</div>
+<div style='position: absolute;'>
+<audio id ='aid_CELAudio_17_1' startTime = '0' maxVol='50' src='Data\CELAudio_17_1.mp3' style='position: absolute;'>
+
+</audio>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_443' jumpid='443'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_443_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/117579d3-cbdd-4e36-9666-a2786dfb7e55.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_443'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_443_1' ></div>
+</div>
+<div id ='CELImage_18_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_18_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='99.080318874783' hFrame='79.9276394314236' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_18_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_18_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='9.45060483870969' hFrame='12.9354838709678' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_18_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 33.4384515550401%; top: 45.9788563620849%;  height: 9.5%;left: 46.9791077371139%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '33.4384515550401' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_18_2_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_18_2_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">i</span><span id = "CTextFrame_18_2_sp01" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">n</span><span id = "CTextFrame_18_2_sp02" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">t</span><span id = "CTextFrame_18_2_sp03" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">e</span><span id = "CTextFrame_18_2_sp04" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">r</span><span id = "CTextFrame_18_2_sp05" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">e</span><span id = "CTextFrame_18_2_sp06" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">s</span><span id = "CTextFrame_18_2_sp07" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">t</span><span id = "CTextFrame_18_2_sp08" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">i</span><span id = "CTextFrame_18_2_sp09" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">n</span><span id = "CTextFrame_18_2_sp010" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">g</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_18_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 28.9019690619575%; top: 62.88682190938%;  height: 9.5%;left: 56.5563117133246%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '28.9019690619575' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_18_3_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_18_3_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">e</span><span id = "CTextFrame_18_3_sp01" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">x</span><span id = "CTextFrame_18_3_sp02" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">c</span><span id = "CTextFrame_18_3_sp03" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">i</span><span id = "CTextFrame_18_3_sp04" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">t</span><span id = "CTextFrame_18_3_sp05" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">i</span><span id = "CTextFrame_18_3_sp06" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">n</span><span id = "CTextFrame_18_3_sp07" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">g</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_18_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 23.7242889404297%; top: 79.9963928246963%;  height: 9.5%;left: 67.304815613668%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '23.7242889404297' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_18_4_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_18_4_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">a</span><span id = "CTextFrame_18_4_sp01" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">u</span><span id = "CTextFrame_18_4_sp02" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">t</span><span id = "CTextFrame_18_4_sp03" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">h</span><span id = "CTextFrame_18_4_sp04" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">o</span><span id = "CTextFrame_18_4_sp05" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">r</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_18_5' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 27.392323811849%; top: 28.6721813911368%;  height: 9.5%;left: 40.9693018595378%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '27.392323811849' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent';
+ backgroundcolor='transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_18_5_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_18_5_sp00" class="resizeText" size = "46.6666666666667" style =" font-size: 46.6666666666667px;font-family:'Times_New_Roman';  color: #CC3300;font-weight: bold; "> </span><span id = "CTextFrame_18_5_sp01" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">a</span><span id = "CTextFrame_18_5_sp02" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">u</span><span id = "CTextFrame_18_5_sp03" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">t</span><span id = "CTextFrame_18_5_sp04" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">h</span><span id = "CTextFrame_18_5_sp05" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">o</span><span id = "CTextFrame_18_5_sp06" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">r</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_406' jumpid='406'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_406_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/NCP0P1PHZ2.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_406'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_406_1' ></div>
+</div>
+<div id ='CELImage_19_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_19_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='15.2469758064516' hFrame='12.5322580645161' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_19_1' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_19_1.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='14.8160282258065' hFrame='18.8064516129032' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_19_2' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_19_2.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='13.7978830645161' hFrame='17.4314516129032' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELImage_19_3' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_19_3.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='16.2021169354838' hFrame='13.5645161290323' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id = 'CTextFrame_19_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 70.3125%; top: 36.491935483871%;  height: 21.8548387096774%;left: 13.7096774193549%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '70.3125' hFrame='21.8548387096774' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_19_4_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_19_4_sp00" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">What books do you like?</span>
+</p>
+<p id = "CTextFrame_19_4_Paragraph_1" style = "text-align:center;">
+<span id = "CTextFrame_19_4_sp10" class="resizeText" size = "62.6666666666667" style =" font-size: 62.6666666666667px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Reason why?</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_342' jumpid='342'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+
+<div id='CELPage_342_Demonstration' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/DYTW7AEOC5.mp3' silent='False' type='audio/mpeg'> </audio>
+</div><div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_342'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_342_1' ></div>
+</div>
+<div id ='CELImage_20_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_20_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='11.5927419354839' hFrame='12.733870967742' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div class='CTable_20_1' id='CTable_20_1'><div class='CTable_20_1_border'></div><div class='CTable_20_1_div'></div><div class='CTableAllCell_CTable_20_1' width=1108 height=344><div class='CTable_20_1_Cell_0' id='CTable_20_1_Cell_0'><div class='font-zise-content'><p id = "Cell_0_Paragraph_0" style = "text-align:center;">
+<span id = "Cell_0_sp00" class="resizeText" size = "56" style =" font-size: 56px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Name</span>
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_1' id='CTable_20_1_Cell_1'><div class='font-zise-content'><p id = "Cell_1_Paragraph_0" style = "text-align:center;">
+<span id = "Cell_1_sp00" class="resizeText" size = "56" style =" font-size: 56px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Favorite book</span>
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_2' id='CTable_20_1_Cell_2'><div class='font-zise-content'><p id = "Cell_2_Paragraph_0" style = "text-align:center;">
+<span id = "Cell_2_sp00" class="resizeText" size = "56" style =" font-size: 56px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Author</span>
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_3' id='CTable_20_1_Cell_3'><div class='font-zise-content'><p id = "Cell_3_Paragraph_0" style = "text-align:center;">
+<span id = "Cell_3_sp00" class="resizeText" size = "56" style =" font-size: 56px;font-family:'Times_New_Roman';  color: #FF0000;font-weight: bold; ">Reason why</span>
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_4' id='CTable_20_1_Cell_4'><div class='font-zise-content'><p id = "Cell_4_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_5' id='CTable_20_1_Cell_5'><div class='font-zise-content'><p id = "Cell_5_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_6' id='CTable_20_1_Cell_6'><div class='font-zise-content'><p id = "Cell_6_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_7' id='CTable_20_1_Cell_7'><div class='font-zise-content'><p id = "Cell_7_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_8' id='CTable_20_1_Cell_8'><div class='font-zise-content'><p id = "Cell_8_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_9' id='CTable_20_1_Cell_9'><div class='font-zise-content'><p id = "Cell_9_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_10' id='CTable_20_1_Cell_10'><div class='font-zise-content'><p id = "Cell_10_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+<div class='CTable_20_1_Cell_11' id='CTable_20_1_Cell_11'><div class='font-zise-content'><p id = "Cell_11_Paragraph_0" style = "text-align:justify;">
+
+</p>
+</div></div>
+</div><svg id='CTable_20_1_SVG' width= '1108' height='344' style='position: absolute; opacity: 1.3;' ><g fill='none' style='position: absolute;'><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 0 276.482997652967 0'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 152 276.482997652967 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 0 552.965995305933 0'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 152 552.965995305933 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 0 829.448992958899 0'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 152 829.448992958899 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 0 1105.93199061187 0'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 152 1105.93199061187 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 152 276.482997652967 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 246.958183990442 276.482997652967 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 152 552.965995305933 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 246.958183990442 552.965995305933 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 152 829.448992958899 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 246.958183990442 829.448992958899 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 152 1105.93199061187 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 246.958183990442 1105.93199061187 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 246.958183990442 276.482997652967 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 246.958183990442 552.965995305933 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 246.958183990442 829.448992958899 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 246.958183990442 1105.93199061187 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 341.916367980884 276.482997652967 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 341.916367980884 552.965995305933 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 341.916367980884 829.448992958899 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 341.916367980884 1105.93199061187 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 0 0 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 0 276.482997652967 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 0 552.965995305933 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 0 829.4489929589 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 1105.93199061187 0 1105.93199061187 152'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 152 0 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 152 276.482997652967 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 152 552.965995305933 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 152 829.4489929589 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 1105.93199061187 152 1105.93199061187 246.958183990442'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 0 246.958183990442 0 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 276.482997652967 246.958183990442 276.482997652967 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 552.965995305933 246.958183990442 552.965995305933 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 829.4489929589 246.958183990442 829.4489929589 341.916367980884'></path><path stroke-dasharray='' stroke-width='1' stroke='#000000' d='M 1105.93199061187 246.958183990442 1105.93199061187 341.916367980884'></path></g></svg><canvas id="CTable_20_1_Canvas" class="CTable_20_1_Canvas"  width="1108" height="344" style="width: 100%;height: 100%;position: absolute;"> </canvas>
+</div>
+
+<div id = 'CTextFrame_20_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 69.5000642345798%; top: 63.9276800455681%;  height: 14.875%;left: 18.5951597972582%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '69.5000642345798' hFrame='14.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_20_2_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_20_2_sp00" class="resizeText" size = "48" style =" font-size: 48px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-style: italic; ">- What&acute;s your favorite book? I like. .</span>
+</p>
+<p id = "CTextFrame_20_2_Paragraph_1" style = "text-align:left;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_20_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 69.5000642345798%; top: 73.403486497181%;  height: 14.875%;left: 18.343143668226%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '69.5000642345798' hFrame='14.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_20_3_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_20_3_sp00" class="resizeText" size = "48" style =" font-size: 48px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-style: italic; ">- Who is the author? He/ She is. .</span>
+</p>
+<p id = "CTextFrame_20_3_Paragraph_1" style = "text-align:left;">
+
+</br>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_20_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 69.5000642345798%; top: 83.2825187552456%;  height: 7.125%;left: 18.343143668226%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '69.5000642345798' hFrame='7.125' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_20_4_Paragraph_0" style = "text-align:left;">
+<span id = "CTextFrame_20_4_sp00" class="resizeText" size = "48" style =" font-size: 48px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-style: italic; ">- Why do you like it? Because. . .</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+                <!-- Begin CELMindMapPage_448 -->
+                <div id='CELMindMapPage_448' class='CELPage hidden' >
+
+<div id='CELMindMapPage_448_Demonstration' mmzoom='1' class='hidden' style ="height:0px; width:0px; position: absolute; top:0;left:0"> 
+    <video startTimeDemontration='0' class='VideoDemonstration' src='' silent='False' type = 'video/mp4'></video>
+    <audio startTimeDemontration='0' class='AudioDemonstration' src='Data/3fb107e3-baa9-4ff6-903a-64059227bb2c.mp3' silent='False' type='audio/mpeg'> </audio>
+</div>                    <div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELMindMap_448'><svg height='800' width='1280'></svg><div  class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELMindMap_448_1' ></div></div>
+
+
+                    <img id='path_1_0_448' src = 'Data/637702793779560558.png' class='MindMapBranchIMG' style='width:100%; height:100%; top:-3.83064516129032%; left:-27.7217741935484%'/>
+                    <img id='path_2_0_448' src = 'Data/637702793779969092.png' class='MindMapBranchIMG' style='width:100%; height:100%; top:-3.83064516129032%; left:-27.7217741935484%'/>
+                    <img id='path_3_0_448' src = 'Data/637702793780388295.png' class='MindMapBranchIMG' style='width:100%; height:100%; top:-3.83064516129032%; left:-27.7217741935484%'/>
+
+                    <img id='CELMindMapPage_448_Center_Canvas'  src = 'Data/637702793779141589.png' class='MindMapBranchIMG' style='width:100%; height:100%; top:-3.83064516129032%; left:-27.7217741935484%'/>
+                </div>
+<div id='CELPage_409' jumpid='409'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_409'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_409_1' ></div>
+</div>
+<div id ='CELImage_22_0' class ='resizeFrame' size='0' >
+<img src='Data\png\CELImage_22_0.png' style='width:100%; height: 100%; position: absolute;'/><svg class = 'svgFrame' borderwidth= '0' wFrame='69.1179435483871' hFrame='29.2298387096774' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= 'transparent' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+
+</div>
+
+
+<div id ='CELVideo_22_1' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='24.4871471774194' hFrame='25.6048387096774' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_22_1' startTime ='5' source src='Data\CELVideo_22_1.mp4' maxVol='100' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_22_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 75.548451331354%; top: 49.0083252068584%;  height: 15.75%;left: 14.9409259262905%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '75.548451331354' hFrame='15.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_22_2_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_22_2_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">- Report the content of your survey in the work book.</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_22_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 81.3448222990959%; top: 66.9518735939551%;  height: 15.75%;left: 15.1929420553228%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '81.3448222990959' hFrame='15.75' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_22_3_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_22_3_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">- Prepare next lesson: </span><span id = "CTextFrame_22_3_sp01" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-style: italic; ">Unit 2: School; Lesson 3.2: Reading and Speaking </span><span id = "CTextFrame_22_3_sp02" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">in advance.</span>
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_22_4' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 75.548451331354%; top: 37.5163897229874%;  height: 7.875%;left: 15.1929420553228%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '75.548451331354' hFrame='7.875' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_22_4_Paragraph_0" style = "text-align:justify;">
+<span id = "CTextFrame_22_4_sp00" class="resizeText" size = "53.3333333333333" style =" font-size: 53.3333333333333px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;">- Learn vocabulary by heart</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+<div id='CELPage_382' jumpid='382'  class='CELPage hidden' style="height:100%; width:100%; top:0;left:0; position:absolute; "> 
+<div id= '_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_382'>
+<svg height='800' width='1280'>
+</svg>
+<div class='_f8c8cf9ad7a39d8434f1e71d3cec53f9_CELPage_382_1' ></div>
+</div>
+<div id ='CELVideo_23_0' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='62.5' hFrame='62.5' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_23_0' startTime ='0' source src='Data\CELVideo_23_0.mp4' maxVol='50' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id ='CELVideo_23_1' class ='resizeFrame' size='0' >
+<svg class = 'svgFrame' borderwidth= '0' wFrame='22.1774193548387' hFrame='27.4193548387097' style='position: absolute; width: 100%; height: 100%' strokedash ='' bordercolor= '#000000' backgroundcolor = 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%'/>
+</svg>
+<video id = 'vid_CELVideo_23_1' startTime ='5' source src='Data\CELVideo_23_1.mp4' maxVol='100' maxReplay='0' type = 'video/mp4' style='width: 100%; height: 100%; top: 0%; left: 0%; object-fit: fill; position: absolute;'>
+
+</video>
+
+</div>
+
+
+<div id = 'CTextFrame_23_2' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 60.3014755249023%; top: 5.05671230363257%;  height: 2.5%;left: 24.0135065714518%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '60.3014755249023' hFrame='2.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_23_2_Paragraph_0" style = "text-align:justify;">
+
+</p>
+
+</div>
+
+</div>
+
+
+<div id = 'CTextFrame_23_3' class ='resizeFrame' style='word-wrap:break-word; position: absolute; width: 67.6099432668379%; top: 9.08897036814876%;  height: 9.5%;left: 10.0266114101615%;'>
+<svg class = 'svgFrame' borderwidth = '0' wFrame = '67.6099432668379' hFrame='9.5' style='position: absolute; width: 100%; height: 100%;' strokedash =''  bordercolor= 'transparent'; backgroundcolor= 'transparent'>
+<path style='position: absolute; width: 100%; height: 100%;'/>
+</svg>
+<div style='word-wrap:break-word; position: absolute;width: 100%; height: 100%;'>
+<p id = "CTextFrame_23_3_Paragraph_0" style = "text-align:center;">
+<span id = "CTextFrame_23_3_sp00" class="resizeText" size = "64" style =" font-size: 64px;font-family:'Times_New_Roman';  color: #000000; background-color: transparent;font-weight: bold; ">Thanks for your attention!</span>
+</p>
+
+</div>
+
+</div>
+
+
+ </div> 
+
+            <div style='position: absolute; top: 0.5%;right: 0.5%; width: 15%;height: 6%; z-index: 490000'><img id='wtmImage' style='position: absolute;top: 0;right: 0;height: 100%;' src=''></div>
+            </div>
+            <!-- End left main content -->
+            <!-- Begin right main content -->
+            <div id='rightMainContent'>
+                <div id='mainRightTop'>
+                    <div id='mainTittle'>
+                        <p id='mainTittleContent'>UNIT 2 LESSON 3.1: NEW WORDS + LISTENING</p>
+                    </div>
+                    <div id='mainRightTopBotLeft'>
+                        <img id='mainRightTopBotLeft' src='images\20211018_205337.jpg'>
+                        <video id='mainRightTopBotLeft_Video' style='visibility: hidden' src=''>
+                    </div>
+                    <div id='mainRightTopBotRight'>
+                        <table id='tableRightTop' style='width:100%; height: 100%;'>
+                            <tr class='mainRightTopBotRight'><td class='seo-bold'>Giáo viên:</td></tr>
+                            <tr class='mainRightTopBotRight'><td class='seo-light'>Hoang Thi Thanh Huyen</td></tr>
+                            <tr class='mainRightTopBotRight'><td class='seo-bold'>Môn học:</td></tr>
+                            <tr class='mainRightTopBotRight'><td class='seo-light'>ENGLISH - 6</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <div id='mainRightBot'>
+                    <div id='mainRightBotHeader'>
+                        <div id='mainRightBotHeaderLeft' class='mainRightBotHeaderActive'><p id='mainRightBotHeaderContent'>DÀN BÀI</p></div>
+                        <div id='mainRightBotHeaderRight'><p id='mainRightBotHeaderContentRight'>XEM TRƯỚC</p></div>
+                    </div>
+                    <div id='mainRightBotPageView'>
+                        <div class='mainRightBotPageList'>
+                            <div id='tblPageList' style='width:94%; height: 100%;'>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_404'>introduction</div>
+                            <div class='pageNameRight'>00:46</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_330'>welcome</div>
+                            <div class='pageNameRight'>00:29</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_442'>matching game</div>
+                            <div class='pageNameRight'>00:45</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_257'>1. the secret of old clock</div>
+                            <div class='pageNameRight'>00:46</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_357'>2. My side of the mountain</div>
+                            <div class='pageNameRight'>00:41</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_358'>3. Peter Pan</div>
+                            <div class='pageNameRight'>00:53</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_348'>key matching</div>
+                            <div class='pageNameRight'>01:04</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_349'>unit 2 lesson 3.1</div>
+                            <div class='pageNameRight'>00:11</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_334'>3 stories</div>
+                            <div class='pageNameRight'>01:12</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_335'>vocabulary 1</div>
+                            <div class='pageNameRight'>00:48</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_427'>vocabulary 2 </div>
+                            <div class='pageNameRight'>00:48</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_410'>vocabulary 3</div>
+                            <div class='pageNameRight'>00:30</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_478'>vocabulary 3_Copy</div>
+                            <div class='pageNameRight'>00:30</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_479'>vocabulary 3_Copy_Copy</div>
+                            <div class='pageNameRight'>00:38</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_464'>Vocabulary</div>
+                            <div class='pageNameRight'>01:24</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_389'>summary</div>
+                            <div class='pageNameRight'>00:51</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_490'>listen and fill in</div>
+                            <div class='pageNameRight'>01:41</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_444'>Listen</div>
+                            <div class='pageNameRight'>00:46</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_443'>listen and fill key</div>
+                            <div class='pageNameRight'>00:47</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_406'>question</div>
+                            <div class='pageNameRight'>00:41</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_342'>survey</div>
+                            <div class='pageNameRight'>01:29</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELMindMapPage_448'>Trang bản đồ tư duy</div>
+                            <div class='pageNameRight'>01:15</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_409'>homework</div>
+                            <div class='pageNameRight'>01:58</div></div>
+                            <div class='pageName'><div class='pageNameLeft' id='RightMenuCELPage_382'>goodbye</div>
+                            <div class='pageNameRight'>03:17</div></div>
+                            </div>
+                        </div>
+                        <div class='mainRightBotPageList'>
+                            <div id='tblPageListThumb' style='width:94%; height: 100%;'>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_404.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_404'>introduction</div>
+                                <div class='pageNameRightThumb'>00:46</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_330.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_330'>welcome</div>
+                                <div class='pageNameRightThumb'>00:29</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_442.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_442'>matching game</div>
+                                <div class='pageNameRightThumb'>00:45</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_257.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_257'>1. the secret of old clock</div>
+                                <div class='pageNameRightThumb'>00:46</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_357.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_357'>2. My side of the mountain</div>
+                                <div class='pageNameRightThumb'>00:41</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_358.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_358'>3. Peter Pan</div>
+                                <div class='pageNameRightThumb'>00:53</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_348.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_348'>key matching</div>
+                                <div class='pageNameRightThumb'>01:04</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_349.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_349'>unit 2 lesson 3.1</div>
+                                <div class='pageNameRightThumb'>00:11</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_334.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_334'>3 stories</div>
+                                <div class='pageNameRightThumb'>01:12</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_335.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_335'>vocabulary 1</div>
+                                <div class='pageNameRightThumb'>00:48</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_427.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_427'>vocabulary 2 </div>
+                                <div class='pageNameRightThumb'>00:48</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_410.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_410'>vocabulary 3</div>
+                                <div class='pageNameRightThumb'>00:30</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_478.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_478'>vocabulary 3_Copy</div>
+                                <div class='pageNameRightThumb'>00:30</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_479.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_479'>vocabulary 3_Copy_Copy</div>
+                                <div class='pageNameRightThumb'>00:38</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_464.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_464'>Vocabulary</div>
+                                <div class='pageNameRightThumb'>01:24</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_389.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_389'>summary</div>
+                                <div class='pageNameRightThumb'>00:51</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_490.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_490'>listen and fill in</div>
+                                <div class='pageNameRightThumb'>01:41</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_444.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_444'>Listen</div>
+                                <div class='pageNameRightThumb'>00:46</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_443.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_443'>listen and fill key</div>
+                                <div class='pageNameRightThumb'>00:47</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_406.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_406'>question</div>
+                                <div class='pageNameRightThumb'>00:41</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_342.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_342'>survey</div>
+                                <div class='pageNameRightThumb'>01:29</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELMindMapPage_448.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELMindMapPage_448'>Trang bản đồ tư duy</div>
+                                <div class='pageNameRightThumb'>01:15</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_409.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_409'>homework</div>
+                                <div class='pageNameRightThumb'>01:58</div>                            </div>
+                            <div class='pageNameThumb'>
+                                <div class='pageNameThumbIMG' style="background-size: 100% 100%; background-position: center; background-image: url('Data/ThumbImage/CELPage_382.png') "></div>
+                                <div class='pageNameLeftThumb' id='RightMenuTCELPage_382'>goodbye</div>
+                                <div class='pageNameRightThumb'>03:17</div>                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End right main content -->
+
+            <!-- Functions area -->
+            <div id='mainBottom'>
+                <div id='mainBottomFull'>
+                    <div id='mainBottomBtnPV' data-function='back' class='clear-nextback'></div>
+                    <div id='mainBottomBtnPlayPause' class='btnPlay' data-function='stop'></div>
+                    <div id='mainBottomBtnPause' class='btnPlay' data-function='play' style='display: none'></div>
+                    <div id='mainBottomBtnNext' data-function='next' class='clear-nextback'></div>
+                    <div id='mainBottomSlide'>
+                        <div id='mainBottomTraySlideTimeline'>
+                            <div class='Timeline'>
+                                <div id='slider_Cpage_0'></div>
+                            </div>
+                        </div>
+                        <div id='slider-value' class='hidden'></div>
+                    </div>
+                    <div id='mainBottomBtnVolumn'></div>
+                    <div id='mainBottomBtnVolumnMute' style='display: none;'></div>
+                    <div id='mainBottomVolumnSlide'>
+                        <div id='mainBottomVolumnSlideTray'></div>
+                    </div>
+                    <div id='mainBottomBtnReplay'></div>
+                    <div id='mainBottomBtnZoom'></div>
+                    <div id='mainBottomBtnPVDisable'></div>
+                    <div id='mainBottomBtnPlayPauseDisable'></div>
+                    <div id='mainBottomBtnNextDisable'></div>
+                    <div id='mainBottomSlideDisable'>
+                        <div id='mainBottomToggleSlide'></div>
+                        <div id='mainBottomTraySlide'></div>
+                    </div>
+                    <div id='mainBottomBtnVolumnDisable'></div>
+                    <div id='mainBottomVolumnSlideDisable'>
+                        <div id='mainBottomVolumnSlideTray'></div>
+                    </div>
+                    <div id='mainBottomBtnReplayDisable'></div>
+                    <div id='mainBottomBtnZoomDisable'></div>
+                </div>
+            </div>
+            <!-- End Functions area -->
+        </div>
+    </div>
+<div style='position:absolute; top:0;left:0;width:100%;height:100%; z-index:500000;background-color:white'><div id='loadingPage' style='position:absolute; top:0;left:0;width:100%;height:100%;'></div></div>
+<div style='display: none'><audio id='BGAudio'></audio></div>
+</body>
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript'>var everythingLoaded = setInterval(function() {if (/loaded|complete/.test(document.readyState)) {clearInterval(everythingLoaded);init();}}, 10);</script>
+    <script type='text/javascript' src='js/mainJS.js'></script>
+    <script type='text/javascript' src='js/saveSvgAsPng.js'></script>
+    <script type='text/javascript' src='js/jsAnimate.js'></script>
+    <script type='text/javascript' src='js/jsAnimateObject.js'></script>
+    <script type='text/javascript' src='js/jsTrangDuLieuThuong.js'></script>
+    <script type='text/javascript' src='js/questionjs.js'></script>
+    <script type='text/javascript' async src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+</html>
